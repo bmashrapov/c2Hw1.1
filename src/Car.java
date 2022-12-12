@@ -15,7 +15,7 @@ public class Car {
         if (model == null) {
             System.out.println("default");
         } else {
-            this.brand = brand;
+            this.model = model;
         }
         if (country == null) {
             System.out.println("default");
@@ -40,6 +40,6 @@ public class Car {
     }
 
     public void printCar() {
-        System.out.println("Машина " + brand + model + ". Объем двигателя " + engineVolume + " литра." + " Цвет - " + color + ". Страна - производитель " + country);
+        System.out.println("Машина " + brand + " " + model + ". Объем двигателя " + engineVolume + " литра." + " Цвет - " + color + ". Страна - производитель " + country);
     }
 }
